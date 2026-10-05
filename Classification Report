@@ -1,0 +1,5 @@
+print(classification_report(
+    true_classes,
+    predicted_classes,
+    target_names=['Cat', 'Dog']
+))
